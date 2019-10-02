@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +65,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.page {
+	width: 95%;
+}
+
+/* Header */
+
+
+.headercss {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headercss nav a {
+	padding-left: 50px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #bfbfbf;
+	align-items: center;
+}
+
+/* CTA */
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 60px;
+
+}
+
+header button {
+	border: black 1px solid;
+    padding: 6px 40px;
+	font-size: 15px;
+
+}
+
+header h1 {
+	font-size: 70px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.innovation {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+/* Main text */
+.main-text {
+	display: flex;
+	margin: 0 5%;
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.main-text {
+	margin-top: 40px;
+}
+
+.text-area {
+	width: 46%
+}
+
+.text-area2 {
+	width: 30%;
+}
+
+/* Full page */
+
+
+address p {
+	margin-bottom: 15px;
+}
+
+.contact-info {
+	margin: 10px 5%;
+}
+
+.phone {
+	margin: 10px 0;
+}
+
+address a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	margin-top:25px;
+    text-align: center;
+} 
+
+.page {
+	display: flex;
+	flex-flow: column;
+}
+
+hr {
+	width: 90%;
+}
