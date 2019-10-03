@@ -61,17 +61,13 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-
+/* my code starts here */
 .page {
 	width: 876px;
 	margin: 0 auto;
-	display: flex;
-	flex-flow: column;
 	}
 
 /* Header */
@@ -80,96 +76,73 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
 }
 
-
-
 .headercss nav a {
-	padding-left: 50px;
+	padding-right: 67px;
 	text-decoration: none;
 	font-size: 14px;
 	color: #bfbfbf;
-	align-items: center;
 }
-
-/* CTA */
 
 header {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	margin-top: 60px;
+    margin-top: 15px;
+    border-bottom: 1px black solid;
+    padding-bottom: 31px;
+}
+
+header img {
+    margin-bottom: 25px;
+}
+
+/* skills */
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
 
 }
 
-header button {
-	border: black 1px solid;
-    padding: 6px 40px;
-	font-size: 15px;
-
+.skill {
+    border: 1px black solid;
+    background: #e4e4e4;
+    padding: 25px;
+    width: 47%;
+    margin-top: 25px
+    
 }
 
-header h1 {
-	font-size: 70px;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
+.skill button {
+    border: black 1px solid;
+    padding: 9px 35px;
+    margin-top: 20px;
+	border-radius:3px;
 }
 
-.innovation {
-	display: flex;
-	flex-flow: column;
-	align-items: center;
+.facts {
+    display: flex;
+    padding-top: 45px;
+    border-top: 2px solid black;
+    margin-top: 25px;
 }
 
-/* Main text */
-.main-text {
-	display: flex;
-}
-
-.image {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-}
-
-.main-text {
-	margin-top: 40px;
-}
-
-.text-area {
-	width: 50%;
-	margin-right: 20px;
-}
-
-.text-area2 {
-	width: 33%;
-	margin-right: 20px;
-}
-
-/* Full page */
-
-
-address p {
-	margin-bottom: 15px;
-}
-
-
-.phone {
-	margin: 10px 0;
-}
-
-address a {
-	text-decoration: none;
-	color: black;
+.facts div {
+    padding-right: 20px;
 }
 
 footer {
-	margin-top: 25px;
     text-align: center;
-} 
+    margin-top: 70px;
+}
 
-hr {
-	margin: 25px 0;
+ul {
+    padding-top: 20px;
+}
+
+li {
+    list-style-type: square;
+    margin-top: 10px;
+    margin-left: 20px;
 }
